@@ -13,6 +13,9 @@ private:
     std::string street;
 public:
     House();
+    House(int id, int number_house, int square, int floor, int count_room, std::string street);
+    House(const House &object);
+    ~House();
 };
 
 #endif // HOUSE_H
